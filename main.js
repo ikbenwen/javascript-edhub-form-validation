@@ -15,9 +15,9 @@ function checkUsername(e) {
     // wanneer de waarde een @ bevat willen we de melding WEL tonen.
     if (e.target.value.includes('@')) {
         usernameWarning.textContent = 'Gebruikersnaam mag geen @ bevatten';
-        // in alle andere gevallen tonen we de melding niet.
     } else {
-        usernameWarning.textContent = ' ';
+        // in alle andere gevallen tonen we de melding niet.
+        usernameWarning.textContent = '';
     }
 }
 
